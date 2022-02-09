@@ -129,9 +129,11 @@ pip-selfcheck.json
 .idea/mongoSettings.xml
 
 .idea/
+.idea/*
 
 ## File-based project format:
 *.iws
+*.iml
 
 ## Plugin-specific files:
 
