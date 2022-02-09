@@ -52,7 +52,7 @@ def bubble_sort_v2_gen(arr):
         for j in range(0, len(arr) - 1 - i):
             if arr[j] > arr[j + 1]:
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
-            yield arr
+                yield arr
 
 
 if __name__ == '__main__':
@@ -61,4 +61,4 @@ if __name__ == '__main__':
     print("Initial array", array_1)
     bubble_sort_v2(array_1)
     print("Sorted array", array_1)
-    animate_iterations(array_2, bubble_sort_v2_gen(array_2), interval=150)
+    animate_iterations(array_2, bubble_sort_v2_gen(array_2))

@@ -19,9 +19,10 @@ def gnome_sort_gen(arr):
             arr[i], arr[i + 1] = arr[i + 1], arr[i]
             if i > 0:
                 i -= 1
+            yield arr
         else:
             i += 1
-        yield arr
+
 
 
 if __name__ == '__main__':

@@ -33,4 +33,4 @@ if __name__ == '__main__':
     print("Initial array", array_1)
     comb_sort(array_1)
     print("Sorted array", array_1)
-    animate_iterations(array_2, comb_sort_gen(array_2), interval=150)
+    animate_iterations(array_2, comb_sort_gen(array_2))

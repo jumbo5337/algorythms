@@ -30,9 +30,9 @@ def selection_sort_gen(arr):
 
 
 if __name__ == '__main__':
-    array_1 = generate_shuffled_arr(150)
+    array_1 = generate_shuffled_arr(50)
     array_2 = array_1.copy()
     print("Initial array", array_1)
     selection_sort(array_1)
     print("Sorted array", array_1)
-    animate_iterations(array_2, selection_sort_gen(array_2), interval=250)
+    animate_iterations(array_2, selection_sort_gen(array_2))
