@@ -21,6 +21,7 @@ def insertion_sort_gen(arr):
             j -= 1
             yield arr
         arr[j + 1] = key
+        yield arr
 
 
 if __name__ == '__main__':
